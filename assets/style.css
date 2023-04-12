@@ -593,10 +593,9 @@ img {
   }
   
   .searchBar {
-    display: none;
-    /*font-size: .7rem;
+    font-size: .7rem;
     justify-content: center;
-    align-items: center;*/
+    align-items: center;
   }
 
   .header-option svg {
