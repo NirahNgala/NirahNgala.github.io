@@ -451,11 +451,13 @@ h2 {
 }
 
 .listings-grid {
-  display: flex;
-  overflow: hidden;
-  overflow-x: scroll;
-  scroll-snap-type: mandatory;
-  scroll-behavior: smooth;
+   margin-left: 1rem;
+   margin: 0;
+   display: flex;
+   overflow: hidden;
+   overflow-x: scroll;
+   scroll-snap-type: mandatory;
+   scroll-behavior: smooth;
 }
 
 .listings-grid::-webkit-scrollbar {
