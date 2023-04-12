@@ -632,8 +632,8 @@ img {
   }
 
   .wrapper{
-    width: 280px;
-    height: 340px;
+    width: 220px;
+    height: 330px;
     justify-content: center;
     align-items: center;
     overflow: hidden;
