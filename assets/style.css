@@ -751,6 +751,10 @@ img {
 .listings-grid {
   overflow-x: auto;
 }
+  
+ .listings-grid::-webkit-scrollbar {
+   display: none;
+}
 
 .listings-grid .listings-col {
   margin-left: 0;
