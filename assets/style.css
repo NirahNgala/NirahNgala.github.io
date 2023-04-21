@@ -388,15 +388,11 @@ header .header-option {
   margin-left: 3rem;
 }
 
-.options .options-btn:hover{
-  background: gray;
-
 .options  .selected {
   background: black;
   margin-left: 1.9rem;
   color: #ffffff;
 }
-
 
 .listings {
   padding: 1rem; /*make it to 1 in github*/
