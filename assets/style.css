@@ -386,8 +386,10 @@ header .header-option {
   display: inline-flex;
   align-items: center;
   margin-left: 3rem;
-  
 }
+
+.options .options-btn:hover{
+  background: gray;
 
 .options  .selected {
   background: black;
