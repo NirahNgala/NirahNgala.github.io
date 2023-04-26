@@ -396,8 +396,8 @@ img {
 
   .login-button  {
     width: 70px;
-    padding: 0.25rem 0.5rem; /* adjust padding */
-    font-size: 0.8rem; /* adjust font size */
+    padding: 10px; /* adjust padding */
+    font-size: 1rem; /* adjust font size */
   }
 
   .container {
