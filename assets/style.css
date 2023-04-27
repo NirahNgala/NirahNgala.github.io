@@ -702,6 +702,7 @@ img {
   justify-content: center;
   font-size: .8rem;
   width: 20%;
+  text-decoration: none;
 }
 
 .options .selected {
