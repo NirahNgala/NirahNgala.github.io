@@ -53,7 +53,7 @@ const handleSlider = () => {
 const wrapper = document.querySelector('.wrapper');
 const loginLink = document.querySelector('.login-link');
 const registerLink = document.querySelector('.register-link');
-const btnPopup = document.querySelector('.btnLogin-popup');
+const btnPopup = document.querySelector('.login-btn');
 const iconClose = document.querySelector('.icon-close');
 
 registerLink.addEventListener('click', ()=> {
