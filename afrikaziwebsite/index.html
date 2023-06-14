@@ -4,50 +4,39 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>AfriKazi</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-j87f+t2kRGz5tk6UWY5w5qC3Z3qI5E9oxWp/kv4ZWBYNgz1I4HrD0VpNwYlJKNhZtrRl0/7cyu62/29h3oVcQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
 	<!--header-->
-	<header>
-		<div class="container">
-			<div class="hamburger-menu">
-				<input id="menu__toggle" type="checkbox"/>
-				<label class="menu__btn" for="menu__toggle">
-				  <span></span>
-				</label>
-				<ul class="menu__box">
-				  <li><a class="menu__item" href="#">Log In</a></li>
-				  <li><a class="menu__item" href="#">Sign Up</a></li>
-				  <li><a class="menu__item" href="#">Job Seekers</a></li>
-				  <li><a class="menu__item" href="#">Employers</a></li>
-				</ul>
-			</div>
-			<div class="logo">
+	<nav class="navbar">
+        <h1>
+            <div class="logo">
 				<h1>Afri<span>Kazi</span></h1>
 			</div>
-			<div class="currentDetails">
-				<div class="header-option">
-					<i data-feather="map-pin"></i>
-					<span>Kenya</span>
-				</div>
-				<div class="header-option">
-					<i data-feather="clock"></i>
-					<span>Find a Job</span>
-				</div>
+        </h1> 
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+                </label>
+            
+                <ul class="menu__box">
+                  <li><a class="menu__item" href="#">Log In</a></li>
+                  <li><a class="menu__item" href="#">Sign Up</a></li>
+                  <li><a class="menu__item" href="#">Job Seekers</a></li>
+                  <li><a class="menu__item" href="#">Employers</a></li>
+                </ul>
+            </div>
+			<a href="#aboutus"></a><div class="">About Us</div></a>
+			<div class="auth-buttons">
+				<button class="login-button" onclick="window.location.href='login.html';">Login</button>
 			</div>
-			<div class="searchBar">
-				<div class="header-option">
-					<i data-feather="search"></i>
-					<span>Search</span>
-				</div>
-				<div class="header-option">
-					<button class="btnLogin-popup">Login</button>
-				</div>
-			</div>
-		</div>
-	</header>
-	<div class="wrapper">
+    </nav>
         <span class="icon-close">
             <ion-icon name="close"></ion-icon>
         </span>
@@ -623,6 +612,43 @@
 		</div>
 	</div>
 	</div>
+	<section id="aboutus">
+		<h2>How it Works</h2>
+		<p>is an online marketplace that connects you with a network of pre-approved and background-checked individuals who have the time and skill sets needed to complete the listed tasks.
+			It allows you to outsource small, repeat jobs and tasks ranging from housekeeping, delivery services, saloon & hairdressers,handyman services, mechanics, security, transportation to more professional services like accounting and legal represantation <br>
+			 <b>Features and Facts</b><br>
+			<b>AFRIKAZI.COM</b> is empowering the youth in kenya to ethically put their skills to work so as to become financially and professionally independent. 
+			We seeks to make a mark in the Kenyan on-demand goods and service provision space and in turn give our kenya youth a meaningful livelihood and a sense of purpose.</p>
+	</section>
+	<footer>
+		<div class="footer-grid">
+		  <div class="footer-item">
+			<h4>Afri<span>Kazi</span></h4>
+			<img src="logo.jpg" alt="">
+		  </div>
+		  <div class="footer-item">link</div>
+		  <div class="footer-item">link</div>
+		  <div class="footer-item">link</div>
+		  <div class="footer-item">link</div>
+		</div>
+		<div class="wrappa">
+			<div class="icon facebook">
+				<span><i class="ri-facebook-fill"></i></span>
+			</div>
+			<div class="icon instagram">
+				<span><i class="ri-instagram-line"></i></span>
+			</div>
+			<div class="icon twitter">
+				<span><i class="ri-twitter-fill"></i></span>
+			</div>
+			<div class="icon whatsapp">
+				<span><i class="ri-whatsapp-line"></i></span>
+			</div>
+			<div class="icon linkedin">
+			  <span><i class="ri-linkedin-fill"></i></span>
+			</div>
+		</div>
+	</footer>
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 	<script src="index.js"></script>
