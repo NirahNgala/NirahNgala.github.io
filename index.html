@@ -4,15 +4,20 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Afri-Kazi</title>
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-j87f+t2kRGz5tk6UWY5w5qC3Z3qI5E9oxWp/kv4ZWBYNgz1I4HrD0VpNwYlJKNhZtrRl0/7cyu62/29h3oVcQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
 	<nav class="navbar">
-		<div class="logo">
-			<h1>Afri<span>Kazi</span></h1>
-		</div>
+        <h1>
+            <div class="logo">
+				<h1>Afri<span>Kazi</span></h1>
+			</div>
+        </h1> 
             <div class="hamburger-menu">
                 <input id="menu__toggle" type="checkbox" />
                 <label class="menu__btn" for="menu__toggle">
@@ -26,63 +31,57 @@
                   <li><a class="menu__item" href="#">Employers</a></li>
                 </ul>
             </div>
-            <div class="auth-buttons">
-                <button class="login-button" onclick="window.location.href='login.html';">Login</button>
-            </div>
-        </a>
+			<a href="#aboutus"><div class="aboutus"><b>about Us</b></div></a>
+			<div class="auth-buttons">
+				<button class="login-button" onclick="window.location.href='login.html';">Login</button>
+			</div>
     </nav>
-	<!-- options -->
-	<div class="options">
-		<div class="container">
-			<button class="options-btn selected">Job Seekers</button>
-			<button class="options-btn" onclick="window.location.href='/employers.html';">Employers</button>
-		</div>
-	</div>
+
 	<div class="explore-section">
-		<h3>Jobs</h3>
+		<h3>Featured Jobs</h3>
 		<ul class="category-list">
 			<li class="category-item">
-				<a href="/applyob.html"><img src="assets/security.png" alt="mechanic"></a>
-				<span class="category-name">bouncer</span>
-			</li>
-			<li class="category-item">
-				<a href="/applyob.html"><img src="assets/mechanical-engineering.png" alt="mechanical-engineering"></a>
-				<span class="category-name">mechanic</span>
-			</li>
-			<li class="category-item">
-				<a href="/applyob.html"><img src="assets/housekeeping.png" alt="housekeeping"></a>
-				<span class="category-name">housekeeping</span>
-			</li>
-			<li class="category-item">
-				<a href="/applyob.html"><img src="assets/medical-team.png" alt="nurse"></a>
-				<span class="category-name">Nurse</span>
-			</li>
-			<li class="category-item">
-				<a href="/applyob.html"><img src="assets/painter.png" alt="painter"></a>
-				<span class="category-name">Painter</span>
-			</li>
-			<li class="category-item">
-				<a href="/applyob.html"><img src="assets/food.png" alt="Category 3"></a>
-				<span class="category-name">Delivery</span>
-			</li>
-			<li class="category-item">
-				<a href="/applyob.html"><img src="assets/help.png" alt="IT"></a>
-				<span class="category-name">Communication</span>
-			</li>
-			<li class="category-item">
-				<a href="/applyob.html"><img src="assets/guard.png" alt="security guard"></a>
+				<a href="applyob.html"><img src="security.png" alt="mechanic"></a>
 				<span class="category-name">Security</span>
 			</li>
 			<li class="category-item">
-				<a href="/applyob.html"><img src="assets/navigation.png" alt="Rides"></a>
+				<a href="applyob.html"><img src="mechanical-engineering.png" alt="mechanical-engineering"></a>
+				<span class="category-name">Househelp</span>
+			</li>
+			<li class="category-item">
+				<a href="applyob.html"><img src="housekeeping.png" alt="housekeeping"></a>
+				<span class="category-name">housekeeping</span>
+			</li>
+			<li class="category-item">
+				<a href="applyob.html"><img src="medical-team.png" alt="nurse"></a>
+				<span class="category-name">Nurse</span>
+			</li>
+			<li class="category-item">
+				<a href="applyob.html"><img src="painter.png" alt="painter"></a>
+				<span class="category-name">Painter</span>
+			</li>
+			<li class="category-item">
+				<a href="applyob.html"><img src="food.png" alt="Category 3"></a>
+				<span class="category-name">Delivery</span>
+			</li>
+			<li class="category-item">
+				<a href="applyob.html"><img src="help.png" alt="IT"></a>
+				<span class="category-name">Communication</span>
+			</li>
+			<li class="category-item">
+				<a href="applyob.html"><img src="guard.png" alt="security guard"></a>
+				<span class="category-name">Security</span>
+			</li>
+			<li class="category-item">
+				<a href="applyob.html"><img src="navigation.png" alt="Rides"></a>
 				<span class="category-name">Rides</span>
 			</li>
 			<li class="category-item">
-				<a href="/applyob.html"><img src="assets/electrician.png" alt="electrician"></a>
-				<span class="category-name">Electriciany</span>
+				<a href="applyob.html"><img src="electrician.png" alt="electrician"></a>
+				<span class="category-name">Electrician</span>
 			</li>
 		</ul>
-	</div>
+	</div> 
 	<!--  Listing  -->
 	<div class="listings">
 		<div class="container">
@@ -93,7 +92,7 @@
 				</div>
 				<div class="header-viewOptions">
 					<div class="viewAll">
-						<span>view all</span>
+						<!-- <span>view all</span>-->
 					</div>
 					<div class="viewMore">
 						<span class="arrow circle left">
@@ -109,59 +108,56 @@
 				<div class="listings-col">
 					<div class="listings-grid-element">
 						<div class="image">
-							<img src="assets/catering.jpg" alt="electrician">
+							<img src="nurse.jpg" alt="nurse">
 						</div>
 						<div class="text">
 							<div class="text-title">
-								<h3>Catering Services</h3>
+								<h3>Nurse</h3>
 								<div class="info">
-									<span>$30/hr | fixing lights</span>
+									<span>$30/hr</span>
 								</div>
 							</div>
 							<div class="rating">
-								<button class="btnply">Apply</button>
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
+							</div>
+						</div>
+						<div class="text-lower">
+							<span class="smallText"></span>
+						</div>
+					</div>
+					<div class="listings-grid-element">
+						<div class="image">
+							<img src="fumigation.jpg" alt="fumigation experts">
+						</div>
+						<div class="text">
+							<div class="text-title">
+								<h3>Fumigation Experts</h3>
+								<div class="info">
+									<span>$30/hr</span>
+								</div>
+							</div>
+							<div class="rating">
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
 							</div>
 						</div>
 						<div class="text-lower">
 							<span class="smallText">
-								remote | hourly rates | lights
 							</span>
 						</div>
 					</div>
 					<div class="listings-grid-element">
 						<div class="image">
-							<img src= "assets/welder.jpg" alt="electrician">
-						</div>
-						<div class="text">
-							<div class="text-title">
-								<h3>Welder</h3>
-								<div class="info">
-									<span>$30/hr | fixing lights</span>
-								</div>
-							</div>
-							<div class="rating">
-								<button class="btnply">Apply</button>
-							</div>
-						</div>
-						<div class="text-lower">
-							<span class="smallText">
-								remote | hourly rates | lights
-							</span>
-						</div>
-					</div>
-					<div class="listings-grid-element">
-						<div class="image">
-							<img src="assets/workers.jpg" alt="electrician">
+							<img src="workers.jpg" alt="Construction workers">
 						</div>
 						<div class="text">
 							<div class="text-title">
 								<h3>Construction Workers</h3>
 								<div class="info">
-									<span>$30/hr | fixing lights</span>
+									<span>$30/hr</span>
 								</div>
 							</div>
 							<div class="rating">
-								<button class="btnply">Apply</button>
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
 							</div>
 						</div>
 						<div class="text-lower">
@@ -174,98 +170,47 @@
 				<div class="listings-col">
 					<div class="listings-grid-element">
 						<div class="image">
-							<img src="assets/fumigation.jpg" alt="electrician">
+							<img src="security.jpg" alt="Security Guards">
 						</div>
 						<div class="text">
 							<div class="text-title">
-								<h3>electrician</h3>
+								<h3>Security Guards</h3>
 								<div class="info">
-									<span>$30/hr | fixing lights</span>
+									<span>$30/hr</span>
 								</div>
 							</div>
 							<div class="rating">
-								<button class="btnply">Apply</button>
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
 							</div>
 						</div>
 						<div class="text-lower">
 							<span class="smallText">
-								remote | hourly rates | lights
 							</span>
 						</div>
 					</div>
 					<div class="listings-grid-element">
 						<div class="image">
-							<img src="assets/security.jpg" alt="electrician">
+							<img src="movers.jpg" alt="movers">
 						</div>
 						<div class="text">
 							<div class="text-title">
-								<h3>electrician</h3>
+								<h3>Movers</h3>
 								<div class="info">
-									<span>$30/hr | fixing lights</span>
+									<span>$40/hr</span>
 								</div>
 							</div>
 							<div class="rating">
-								<button class="btnply">Apply</button>
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
 							</div>
 						</div>
 						<div class="text-lower">
 							<span class="smallText">
-								remote | hourly rates | lights
 							</span>
 						</div>
 					</div>
 					<div class="listings-grid-element">
 						<div class="image">
-							<img src="assets/movers.jpg" alt="electrician">
-						</div>
-						<div class="text">
-							<div class="text-title">
-								<h3>electrician</h3>
-								<div class="info">
-									<span>$30/hr | fixing lights</span>
-								</div>
-							</div>
-							<div class="rating">
-								<button class="btnply">Apply</button>
-							</div>
-						</div>
-						<div class="text-lower">
-							<span class="smallText">
-								remote | hourly rates | lights
-							</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--  Listing  -->
-	<div class="listings">
-		<div class="container">
-			<div class="header">
-				<div class="header-title">
-					<h2>Jobs near you</h2>
-					<span></span>
-				</div>
-				<div class="header-viewOptions">
-					<div class="viewAll">
-						<span>view all</span>
-					</div>
-					<div class="viewMore">
-						<span class="arrow circle left">
-							<i data-feather="arrow-left"></i>
-						</span>
-						<span class="arrow circle right darker">
-							<i data-feather="arrow-right"></i>
-						</span>
-					</div>
-				</div>
-			</div>
-			<div class="listings-grid">
-				<div class="listings-col">
-					<div class="listings-grid-element">
-						<div class="image">
-							<img src="assets/laundry (2).jpg" alt="electrician">
+							<img src="laundry (2).jpg" alt="laundry services">
 						</div>
 						<div class="text">
 							<div class="text-title">
@@ -275,7 +220,51 @@
 								</div>
 							</div>
 							<div class="rating">
-								<button class="btnply">Apply</button>
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
+							</div>
+						</div>
+						<div class="text-lower">
+							<span class="smallText">
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="listings">
+		<div class="container">
+			<div class="header">
+			
+				<div class="header-viewOptions">
+					<div class="viewAll">
+						<!-- <span>view all</span>-->
+					</div>
+					<div class="viewMore">
+						<span class="arrow circle left">
+							<i data-feather="arrow-left"></i>
+						</span>
+						<span class="arrow circle right darker">
+							<i data-feather="arrow-right"></i>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="listings-grid">
+				<div class="listings-col">
+					<div class="listings-grid-element">
+						<div class="image">
+							<img src="taxi.jpg" alt="kazisasa rides">
+						</div>
+						<div class="text">
+							<div class="text-title">
+								<h3>Kazisasa Rides</h3>
+								<div class="info">
+									<span>$30/hr | fixing lights</span>
+								</div>
+							</div>
+							<div class="rating">
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
 							</div>
 						</div>
 						<div class="text-lower">
@@ -286,17 +275,168 @@
 					</div>
 					<div class="listings-grid-element">
 						<div class="image">
-							<img src="assets/event.jpg" alt="electrician">
+							<img src="delivery.jpg" alt="Kazisasa deliveries">
 						</div>
 						<div class="text">
 							<div class="text-title">
-								<h3>Event planners</h3>
+								<h3>Kazisasa Deliveries</h3>
+								<div class="info">
+									<span>$30/hr</span>
+								</div>
+							</div>
+							<div class="rating">
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
+							</div>
+						</div>
+						<div class="text-lower">
+							<span class="smallText">
+					
+							</span>
+						</div>
+					</div>
+					<div class="listings-grid-element">
+						<div class="image">
+							<img src="event.jpg" alt="events planner">
+						</div>
+						<div class="text">
+							<div class="text-title">
+								<h3>Events Planner</h3>
+								<div class="info">
+									<span>$30/hr</span>
+								</div>
+							</div>
+							<div class="rating">
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
+							</div>
+						</div>
+						<div class="text-lower">
+							<span class="smallText">
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="listings-col">
+					<div class="listings-grid-element">
+						<div class="image">
+							<img src="blood.jpg" alt="blood donation">
+						</div>
+						<div class="text">
+							<div class="text-title">
+								<h3>Blood Donation</h3>
+								<div class="info">
+									<span>$30/hr</span>
+								</div>
+							</div>
+							<div class="rating">
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
+							</div>
+						</div>
+						<div class="text-lower">
+							<span class="smallText">
+							</span>
+						</div>
+					</div>
+					<div class="listings-grid-element">
+						<div class="image">
+							<img src="househelp.jpg" alt="househelp">
+						</div>
+						<div class="text">
+							<div class="text-title">
+								<h3>House Help</h3>
+								<div class="info">
+									<span>$30/hr</span>
+								</div>
+							</div>
+							<div class="rating">
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
+							</div>
+						</div>
+						<div class="text-lower">
+							<span class="smallText">
+							</span>
+						</div>
+					</div>
+					<div class="listings-grid-element">
+						<div class="image">
+							<img src="community.jpg" alt="community engagement">
+						</div>
+						<div class="text">
+							<div class="text-title">
+								<h3>Community Engagement</h3>
+								<div class="info">
+									<span>$30/hr</span>
+								</div>
+							</div>
+							<div class="rating">
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
+							</div>
+						</div>
+						<div class="text-lower">
+							<span class="smallText">
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="listings">
+		<div class="container"></div>
+			<div class="listings-grid">
+				<div class="listings-col">
+					<div class="listings-grid-element">
+						<div class="image">
+							<img src="plumber.jpg" alt="plumbers">
+						</div>
+						<div class="text">
+							<div class="text-title">
+								<h3>Plumbers</h3>
+								<div class="info">
+									<span>$30/hr</span>
+								</div>
+							</div>
+							<div class="rating">
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
+							</div>
+						</div>
+						<div class="text-lower">
+							<span class="smallText">
+							</span>
+						</div>
+					</div>
+					<div class="listings-grid-element">
+						<div class="image">
+							<img src="carwash.jpg" alt="car-wash services">
+						</div>
+						<div class="text">
+							<div class="text-title">
+								<h3>Carwash Services</h3>
+								<div class="info">
+									<span>$30/hr</span>
+								</div>
+							</div>
+							<div class="rating">
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
+							</div>
+						</div>
+						<div class="text-lower">
+							<span class="smallText">
+							</span>
+						</div>
+					</div>
+					<div class="listings-grid-element">
+						<div class="image">
+							<img src="electrician (2).jpg" alt="electrician">
+						</div>
+						<div class="text">
+							<div class="text-title">
+								<h3>Electrician</h3>
 								<div class="info">
 									<span>$30/hr | fixing lights</span>
 								</div>
 							</div>
 							<div class="rating">
-								<button class="btnply">Apply</button>
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
 							</div>
 						</div>
 						<div class="text-lower">
@@ -305,19 +445,86 @@
 							</span>
 						</div>
 					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Subcategories  Listing  -->
+	<div class="listings">
+		<div class="container">
+			<div class="header">
+				<div class="header-title">
+					<h2>Sub Categories</h2>
+					<span></span>
+				</div>
+				<div class="header-viewOptions">
+					<div class="viewAll">
+						<!-- <span>view all</span>-->
+					</div>
+					<div class="viewMore">
+						<span class="arrow circle left">
+							<i data-feather="arrow-left"></i>
+						</span>
+						<span class="arrow circle right darker">
+							<i data-feather="arrow-right"></i>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="listings-grid">
+				<div class="listings-col">
 					<div class="listings-grid-element">
 						<div class="image">
-							<img src="assets/househelp.jpg" alt="electrician">
+							<img src="nurse.jpg" alt="nurse">
 						</div>
 						<div class="text">
 							<div class="text-title">
-								<h3>HouseHelp</h3>
+								<h3>Nurse</h3>
 								<div class="info">
-									<span>$30/hr | fixing lights</span>
+									<span>$30/hr</span>
 								</div>
 							</div>
 							<div class="rating">
-								<button class="btnply">Apply</button>
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
+							</div>
+						</div>
+						<div class="text-lower">
+							<span class="smallText"></span>
+						</div>
+					</div>
+					<div class="listings-grid-element">
+						<div class="image">
+							<img src="fumigation.jpg" alt="fumigation experts">
+						</div>
+						<div class="text">
+							<div class="text-title">
+								<h3>Fumigation Experts</h3>
+								<div class="info">
+									<span>$30/hr</span>
+								</div>
+							</div>
+							<div class="rating">
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
+							</div>
+						</div>
+						<div class="text-lower">
+							<span class="smallText">
+							</span>
+						</div>
+					</div>
+					<div class="listings-grid-element">
+						<div class="image">
+							<img src="workers.jpg" alt="Construction workers">
+						</div>
+						<div class="text">
+							<div class="text-title">
+								<h3>Construction Workers</h3>
+								<div class="info">
+									<span>$30/hr</span>
+								</div>
+							</div>
+							<div class="rating">
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
 							</div>
 						</div>
 						<div class="text-lower">
@@ -330,232 +537,107 @@
 				<div class="listings-col">
 					<div class="listings-grid-element">
 						<div class="image">
-							<img src="assets/community.jpg" alt="electrician">
+							<img src="security.jpg" alt="Security Guards">
 						</div>
 						<div class="text">
 							<div class="text-title">
-								<h3>Community Engagement</h3>
+								<h3>Security Guards</h3>
 								<div class="info">
-									<span>$30/hr | fixing lights</span>
+									<span>$30/hr</span>
 								</div>
 							</div>
 							<div class="rating">
-								<button class="btnply">Apply</button>
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
 							</div>
 						</div>
 						<div class="text-lower">
 							<span class="smallText">
-								remote | hourly rates | lights
 							</span>
 						</div>
 					</div>
 					<div class="listings-grid-element">
 						<div class="image">
-							<img src="assets/nurse.jpg" alt="electrician">
+							<img src="movers.jpg" alt="movers">
 						</div>
 						<div class="text">
 							<div class="text-title">
-								<h3>Nurse</h3>
+								<h3>Movers</h3>
 								<div class="info">
-									<span>$30/hr | fixing lights</span>
+									<span>$40/hr</span>
 								</div>
 							</div>
 							<div class="rating">
-								<button class="btnply">Apply</button>
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
 							</div>
 						</div>
 						<div class="text-lower">
 							<span class="smallText">
-								remote | hourly rates | lights
 							</span>
 						</div>
 					</div>
 					<div class="listings-grid-element">
 						<div class="image">
-							<img src="assets/construction.jpg" alt="electrician">
+							<img src="laundry (2).jpg" alt="laundry services">
 						</div>
 						<div class="text">
 							<div class="text-title">
-								<h3>electrician</h3>
+								<h3>Laundry Services</h3>
 								<div class="info">
 									<span>$30/hr | fixing lights</span>
 								</div>
 							</div>
 							<div class="rating">
-								<button class="btnply">Apply</button>
+								<a href="applyob.html"><button class="btnply">Apply</button></a>
 							</div>
 						</div>
 						<div class="text-lower">
 							<span class="smallText">
-								remote | hourly rates | lights
 							</span>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!--  Listing  -->
-		<div class="listings">
-			<div class="container">
-				<div class="header">
-					<div class="header-title">
-						<h2>Jobs near you</h2>
-						<span></span>
-					</div>
-					<div class="header-viewOptions">
-						<div class="viewAll">
-							<span>view all</span>
-						</div>
-						<div class="viewMore">
-							<span class="arrow circle left">
-								<i data-feather="arrow-left"></i>
-							</span>
-							<span class="arrow circle right darker">
-								<i data-feather="arrow-right"></i>
-							</span>
-						</div>
-					</div>
-				</div>
-				<div class="listings-grid">
-					<div class="listings-col">
-						<div class="listings-grid-element">
-							<div class="image">
-								<img src="assets/plumber.jpg" alt="electrician">
-							</div>
-							<div class="text">
-								<div class="text-title">
-									<h3>Plumber</h3>
-									<div class="info">
-										<span>$30/hr | fixing lights</span>
-									</div>
-								</div>
-								<div class="rating">
-									<button class="btnply">Apply</button>
-								</div>
-							</div>
-							<div class="text-lower">
-								<span class="smallText">
-									remote | hourly rates | lights
-								</span>
-							</div>
-						</div>
-						<div class="listings-grid-element">
-							<div class="image">
-								<img src="assets/carwash.jpg" alt="electrician">
-							</div>
-							<div class="text">
-								<div class="text-title">
-									<h3>Car Wash Services</h3>
-									<div class="info">
-										<span>$30/hr | fixing lights</span>
-									</div>
-								</div>
-								<div class="rating">
-									<button class="btnply">Apply</button>
-								</div>
-							</div>
-							<div class="text-lower">
-								<span class="smallText">
-									remote | hourly rates | lights
-								</span>
-							</div>
-						</div>
-						<div class="listings-grid-element">
-							<div class="image">
-								<img src="assets/background.jpg" alt="electrician">
-							</div>
-							<div class="text">
-								<div class="text-title">
-									<h3>electrician</h3>
-									<div class="info">
-										<span>$30/hr | fixing lights</span>
-									</div>
-								</div>
-								<div class="rating">
-									<button class="btnply">Apply</button>
-								</div>
-							</div>
-							<div class="text-lower">
-								<span class="smallText">
-									remote | hourly rates | lights
-								</span>
-							</div>
-						</div>
-					</div>
-					<div class="listings-col">
-						<div class="listings-grid-element">
-							<div class="image">
-								<img src="assets/electrician (2).jpg" alt="electrician">
-							</div>
-							<div class="text">
-								<div class="text-title">
-									<h3>electrician</h3>
-									<div class="info">
-										<span>$30/hr | fixing lights</span>
-									</div>
-								</div>
-								<div class="rating">
-									<button class="btnply">Apply</button>
-								</div>
-							</div>
-							<div class="text-lower">
-								<span class="smallText">
-									remote | hourly rates | lights
-								</span>
-							</div>
-						</div>
-						<div class="listings-grid-element">
-							<div class="image">
-								<img src="assets/carwash.jpg" alt="electrician">
-							</div>
-							<div class="text">
-								<div class="text-title">
-									<h3>electrician</h3>
-									<div class="info">
-										<span>$30/hr | fixing lights</span>
-									</div>
-								</div>
-								<div class="rating">
-									<button class="btnply">Apply</button>
-								</div>
-							</div>
-							<div class="text-lower">
-								<span class="smallText">
-									remote | hourly rates | lights
-								</span>
-							</div>
-						</div>
-						<div class="listings-grid-element">
-							<div class="image">
-								<img src="assets/security.jpg" alt="electrician">
-							</div>
-							<div class="text">
-								<div class="text-title">
-									<h3>electrician</h3>
-									<div class="info">
-										<span>$30/hr | fixing lights</span>
-									</div>
-								</div>
-								<div class="rating">
-									<button class="btnply">Apply</button>
-								</div>
-							</div>
-							<div class="text-lower">
-								<span class="smallText">
-									remote | hourly rates | lights
-								</span>
-							</div>
-						</div>
-					</div>
-				</div>
+	</div>
+	<section id="aboutus">
+		<h2>How it Works</h2>
+		<p>is an online marketplace that connects you with a network of pre-approved and background-checked individuals who have the time and skill sets needed to complete the listed tasks.
+			It allows you to outsource small, repeat jobs and tasks ranging from housekeeping, delivery services, saloon & hairdressers,handyman services, mechanics, security, transportation to more professional services like accounting and legal represantation <br>
+			 <b>Features and Facts</b><br>
+			<b>AFRIKAZI.COM</b> is empowering the youth in kenya to ethically put their skills to work so as to become financially and professionally independent. 
+			We seeks to make a mark in the Kenyan on-demand goods and service provision space and in turn give our kenya youth a meaningful livelihood and a sense of purpose.</p>
+	</section>
+	<footer>
+		<div class="footer-grid">
+		  <div class="footer-item">
+			<h4>Afri<span>Kazi</span></h4>
+			<img src="logo.jpg" alt="">
+		  </div>
+		  <div class="footer-item">link</div>
+		</div>
+		<div class="wrappa">
+			<div class="icon facebook">
+				<span><i class="ri-facebook-fill"></i></span>
+			</div>
+			<div class="icon instagram">
+				<span><i class="ri-instagram-line"></i></span>
+			</div>
+			<div class="icon twitter">
+				<span><i class="ri-twitter-fill"></i></span>
+			</div>
+			<div class="icon whatsapp">
+				<span><i class="ri-whatsapp-line"></i></span>
+			</div>
+			<div class="icon linkedin">
+			  <span><i class="ri-linkedin-fill"></i></span>
 			</div>
 		</div>
-	</div>
-	</div>
-        <script src="assets/index.js"></script>
+	</footer>
+	  
+	<script src="index.js"></script>
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-        <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
 	<script>
 		feather.replace()
 	</script>
