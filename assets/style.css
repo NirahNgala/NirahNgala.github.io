@@ -682,12 +682,12 @@ footer span{
   text-align: center;
   font-size: 24px;
 }
-.logo {
+.world {
   display: inline-block;
   position: relative;
   font-size: 30px;
 }
-.logo::after {
+.world .emoji::after {
   content: "🌍";
   display: inline-block;
   vertical-align: middle;
