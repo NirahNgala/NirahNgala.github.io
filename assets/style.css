@@ -671,6 +671,9 @@ footer {
   padding: 20px;
 }
 .copyright {
+  text-align:center;
+  align-items:center;
+  justify-content:center;
   margin-top: 10px;
   font-size: 14px;
   color: #888;
