@@ -670,6 +670,11 @@ footer {
   background-color: #ffffff;
   padding: 20px;
 }
+.copyright {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #888;
+}
 
 footer h4{
   margin-top: 0;
