@@ -678,22 +678,22 @@ footer h4{
 footer span{
   color: #06c167;
 }
-
-footer img{
-  height: 54px;
-  width: 54px;
+.wrld {
+  text-align: center;
+  font-size: 24px;
 }
-
-.footer-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr); /* Adjust the number of columns as needed */
-  grid-gap: 30px; /* Adjust the gap between grid items */
+.world {
+  display: inline-block;
+  position: relative;
+  font-size: 40px; /* Increase the font size to make the emoji larger */
 }
-
-.footer-item {
-  /* Styles for each grid item */
+.world::before {
+  content: "🌍";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
 .wrappa {
   display: flex;
   align-items: center;
